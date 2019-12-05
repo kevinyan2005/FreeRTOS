@@ -115,7 +115,7 @@ const TickType_t Delay2000MS = pdMS_TO_TICKS(2000UL);
 		//	loop with a proper delay/sleep function. */
 		//}
 
-		vTaskDelay(Delay2000ms);
+		vTaskDelay(Delay2000MS);
 	}
 }
 /*-----------------------------------------------------------*/
@@ -140,7 +140,7 @@ const TickType_t Delay1000MS = pdMS_TO_TICKS(1000UL);
 		//	loop with a proper delay/sleep function. */
 		//}
 		
-		vTaskDelay(Delay1000ms);
+		vTaskDelay(Delay1000MS);
 
 	}
 }
